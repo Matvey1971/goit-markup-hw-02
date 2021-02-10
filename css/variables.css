@@ -1,0 +1,12 @@
+:root {
+    --white-text: rgba(255, 255, 255, 1);
+    --white-text-op60: rgba(255, 255, 255, 1);
+    --back-light-grey: rgba(245, 244, 250, 1);
+    --grey-text: rgba(117, 117, 117, 1);
+    --dark-grey-text: rgba(33, 33, 33, 1);
+    --blue-text: rgba(33, 150, 243, 1);
+    --back-green: rgba(60, 179, 113, 1);
+    --back-blue: rgba(33, 150, 243, 1);
+}
+
+
