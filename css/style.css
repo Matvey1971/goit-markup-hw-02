@@ -105,9 +105,11 @@ body {
 }
 .footer-ad {
     color: var(--on-back-text);
+    font-size: 14px;
 }
 .footer li a {
     color: var(--ad-main-text);
+    font-size: 14px;
 }
 .footer a:hover {
     color: var(--ad-hover-text);
