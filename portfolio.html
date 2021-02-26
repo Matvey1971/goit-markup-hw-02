@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio</title>
@@ -15,20 +14,20 @@
 <body>
     <header class="header">
         <nav class="header-nav">
-            <a href="index.html"><span style="color:rgba(33, 150, 243, 1)">Web</span><span style="color:rgba(0, 0, 0, 1)">Studio</span></a>
+            <a href="index.html"><span class="emblem">Web</span><span class="emblem-nav">Studio</span></a>
             <ul class="header-nav-list">
                 <li><a href="index.html">Студия</a></li>
-                <li><a href="portfolio.html">Портфолио</a></li>
+                <li ><a class="header-a-portfolio" href="portfolio.html">Портфолио</a></li>
                 <li><a href="">Контакты</a></li>
             </ul>
-            <ul class="header-nav-contacts">
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
         </nav>
+        <ul class="header-nav-contacts">
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
     </header>
     <main>
-        <section class="sec">
+        <section class="sec-view">
             <h1 hidden>Наши инструменты</h1>
             <ul>
                 <li><button class="btns">Все</button></li>
@@ -37,8 +36,6 @@
                 <li><button class="btns">Маркетинг</button></li>
                 <li><button class="btns">Приложения</button></li>
             </ul>
-        </section>
-        <section class="sec-view">
             <h1 hidden>Наши работы</h1>
             <ul class="view">
                 <li>
@@ -90,9 +87,9 @@
         </section>
     </main>
     <footer class="footer">
-        <a href="index.html"><span style="color:rgba(33, 150, 243, 1)">Web</span><span style="color: rgba(255, 255, 255, 1)">Studio</span></a>
+        <a href="index.html"><span class="emblem">Web</span><span class="emblem-footer">Studio</span></a>
+        <address class="footer-ad">г. Киев, пр-т Леси Украинки, 26</address>
         <ul>
-            <li class="footer-ad">г. Киев, пр-т Леси Украинки, 26</li>
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>

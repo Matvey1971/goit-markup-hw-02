@@ -1,20 +1,31 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--main-text);
 }
 .header a:hover {
     color: var(--ad-hover-text);
     cursor: pointer;
 }
-.header-nav >  a,
+.header-nav > a,
 .footer > a {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
+}
+.emblem {
+    color: var(--ad-hover-text);
+}
+.emblem-nav {
+    color: var(--emblem-text);
 }
 .header-nav-list a {
     color: var(--main-text);
     padding-right: 50px;
     font-size: 14px;
 }
+.header-nav-list .header-a-portfolio {
+    color: var(--ad-hover-text);
+}
+
 .header-nav-contacts a {
     padding-left: 50px;
     color: var(--ad-main-text);
@@ -44,7 +55,6 @@ body {
 .our-edges h3 {
     text-transform: uppercase;
     font-size: 14px;
-    color: var(--main-text);
 }
 .our-edges p {
     font-size: 14px;
@@ -52,14 +62,12 @@ body {
 }
 .we-doing h2 {
     font-size: 34px;
-    color: var(--main-text);
 }
 .img {
     width: 370px;
 }
 .btns {
     background-color: var(--back-ad-main);
-    color: var(--main-text);
     cursor: pointer;
     border-radius: 5px;
     border: none;
@@ -77,16 +85,12 @@ body {
     background-color: var(--back-ad-main);
 }
 .sec-team li:hover {
-    background-color: var(--back-ad-hover);
-    color: var(--on-back-text);
     cursor: pointer;
 }
 .sec-team h2 {
-    color: var(--main-text);
     font-size: 36px;
 }
 .our-team h3 {
-    color: var(--main-text);
     font-size: 16px;
 }
 .our-team p {
@@ -96,12 +100,14 @@ body {
     width: 270px;
 }
 .view h3 {
-    color: var(--main-text);
     font-size: 18px;
 }
 .view p {
     color: var(--ad-main-text);
     font-size: 16px;
+}
+.emblem-footer {
+    color: var(--on-back-text);
 }
 .footer-ad {
     color: var(--on-back-text);
